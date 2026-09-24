@@ -43,3 +43,19 @@ a:hover {
 header a {
     font-size: 30px;
 }
+
+
+footer {
+    background-color: #1c2023;
+}
+
+.site_footer {
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site_footer a {
+    margin: 0 30px;
+}
