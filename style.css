@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #222629;
+    font-size: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1c2023;
+    border-radius: 0 0 10px 10px;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+}
+.nav a {
+    margin: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #86C232;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #61892f;
+}
+
+header a {
+    font-size: 30px;
+}
